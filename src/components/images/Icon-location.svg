@@ -1,0 +1,42 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-location">
+        
+  <title class="" style="">Icon</title>
+  <g class="" style="">
+    <path d="M24,42a1.022,1.022,0,0,1-.857-0.458c-0.35-.534-8.574-13.094-10.593-16.763A12.566,12.566,0,0,1,11,18.74a13,13,0,0,1,26,0,12.551,12.551,0,0,1-1.552,6.039C33.43,28.448,25.206,41.008,24.856,41.542A1.022,1.022,0,0,1,24,42ZM24,8A10.867,10.867,0,0,0,13.037,18.74a10.584,10.584,0,0,0,1.306,5.092c1.6,2.915,7.444,11.923,9.656,15.319,2.212-3.4,8.052-12.4,9.656-15.319a10.581,10.581,0,0,0,1.308-5.092A10.868,10.868,0,0,0,24,8Z"  class="" style=""/>
+    <path d="M24,26.709a7.985,7.985,0,1,1,8.147-7.983A8.075,8.075,0,0,1,24,26.709Zm0-13.987a6.005,6.005,0,1,0,6.127,6A6.073,6.073,0,0,0,24,12.722Z"  class="" style=""/>
+  </g>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-location" x="0" y="0" fill="#004346" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-location" x="0" y="48" fill="#FFCD05" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-location" x="0" y="96" fill="#478081" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-location" x="0" y="144" fill="#004346" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-location" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-location" x="0" y="240" fill="#00928A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-location" x="0" y="288" fill="#BD1903" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-location" x="0" y="336" fill="#000000" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-location" x="0" y="384" fill="#F5F3F1" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-location" x="0" y="432" fill="#FF6400" />
+    <view id="border" viewBox="0 480 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-location" x="0" y="480" fill="#cdcbc3" />
+    <view id="disabled" viewBox="0 528 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-location" x="0" y="528" fill="#737373" />
+</svg>

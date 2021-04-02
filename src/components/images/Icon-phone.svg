@@ -1,0 +1,39 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-phone">
+        
+  <title class="" style="">Icon</title>
+  <path d="M19.788,42h0a4.54,4.54,0,0,1-2.327-.6L10.5,37.322a1,1,0,0,1-.364-1.358l3.945-6.931a1,1,0,0,1,1.374-.368l4.4,2.577a1.28,1.28,0,0,0,1.354-.423L28.145,18.63a1.064,1.064,0,0,0-.427-1.258l-4.4-2.576a1,1,0,0,1-.364-1.358L26.9,6.505a1,1,0,0,1,1.374-.368l6.964,4.077c3.225,1.891,3.7,7.205,1.054,11.847L28.42,35.89C26.363,39.5,22.822,42,19.788,42Zm-7.431-5.9,6.112,3.58A2.581,2.581,0,0,0,19.787,40c1.984,0,4.982-1.74,6.875-5.065l7.891-13.864c2.249-3.95,1.632-7.982-.327-9.131l-6.09-3.566L25.18,13.568l3.547,2.078a3.031,3.031,0,0,1,1.155,3.973l-6.938,12.19A3.212,3.212,0,0,1,20.2,33.319a2.68,2.68,0,0,1-1.354-.35L15.314,30.9Z"  class="" style=""/>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-phone" x="0" y="0" fill="#004346" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-phone" x="0" y="48" fill="#FFCD05" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-phone" x="0" y="96" fill="#478081" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-phone" x="0" y="144" fill="#004346" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-phone" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-phone" x="0" y="240" fill="#00928A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-phone" x="0" y="288" fill="#BD1903" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-phone" x="0" y="336" fill="#000000" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-phone" x="0" y="384" fill="#F5F3F1" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-phone" x="0" y="432" fill="#FF6400" />
+    <view id="border" viewBox="0 480 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-phone" x="0" y="480" fill="#cdcbc3" />
+    <view id="disabled" viewBox="0 528 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-phone" x="0" y="528" fill="#737373" />
+</svg>

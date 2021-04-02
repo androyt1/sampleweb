@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 50px;
+}
+
+.row {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .row {
+    display: block;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  padding: 10px;
+}
+
+header {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1B2040;
+  margin: 20px 0;
+}
+
+header .box {
+  width: 50%;
+}
+
+header .box h2 {
+  font-size: 36px;
+  padding-top: 30px;
+  color: #FFFFFE;
+}
+
+@media screen and (max-width: 900px) {
+  header .box h2 {
+    font-size: 40px;
+  }
+}
+
+header .box h4 {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #FFFFFE;
+}
+
+@media screen and (max-width: 900px) {
+  header .box h4 {
+    font-size: 20px;
+  }
+}
+
+header .box p {
+  font-size: 16px;
+  padding-top: 30px;
+  color: #FFFFFE;
+}
+
+@media screen and (max-width: 900px) {
+  header .box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 10px;
+  }
+}
+
+header .image-box {
+  width: 40%;
+  margin-left: 30px;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .image-box img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  header .image-box {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    display: block;
+    width: 100%;
+  }
+}
+
+.card {
+  border: 2px solid  #1B2040;
+  width: 30%;
+  margin: 10px 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 40px;
+  }
+}
+
+.card .card-title {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #1B2040;
+}
+
+.card .card-text {
+  padding: 10px 30px;
+  color: #1B2040;
+}
+
+.card .card-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .card-image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-action {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .card-action button {
+  padding: 5px 10px;
+  width: 90%;
+  font-weight: bold;
+  border: none;
+  background-color: #1B2040;
+  color: #FFFFFE;
+}
+
+.special {
+  width: 100%;
+  background-color: #1B2040;
+  color: #FFFFFE;
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .special {
+    padding: 40px 0;
+  }
+}
+
+.special h4 {
+  font-size: 24px;
+}
+
+.special p {
+  text-align: center;
+  width: 70%;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  .special p {
+    width: 90%;
+  }
+}
+
+.special button {
+  width: 50%;
+  padding: 5px 20px;
+  margin-top: 30px;
+  color: #1B2040;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .special button {
+    width: 70%;
+  }
+}
+
+.left {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3D5873;
+}
+
+@media screen and (max-width: 900px) {
+  .left {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.left img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.right {
+  border-top: 10px solid #1B2040;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 45%;
+  padding: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .right {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: #1B2040;
+}
+
+.box {
+  padding: 10px 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #1B2040;
+}
+
+@media screen and (max-width: 900px) {
+  .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+.footer {
+  padding: 100px 100px;
+  background-color: #1B2040;
+  color: #FFFFFE;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .footer p {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    width: 100%;
+    margin-top: 30px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=Home.css.map */
